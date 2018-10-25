@@ -9,8 +9,8 @@
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://woodcol.github.io/</id>
  <author>
-   <name>Tom Preston-Werner</name>
-   <email>tom@mojombo.com</email>
+   <name>千秋项目计划</name>
+   <email>gp@woodcol.com</email>
  </author>
 
  {% for post in site.posts %}
