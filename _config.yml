@@ -93,8 +93,8 @@ friends: [
         title: "主页",
         href: "http://tboy.xyz/"
     },{
-         title: "快递100",
-         href: "https://kuaidi100.com/"
+         title: "快递查询",
+         href: "https://m.kuaidi100.com/"
     }
     #,{
     #     title: "天镶的博客",
