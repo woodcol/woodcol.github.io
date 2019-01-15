@@ -92,11 +92,11 @@ friends: [
     # },{
         title: "主页",
         href: "http://tboy.xyz/"
+    },{
+         title: "快递100",
+         href: "https://kuaidi100.com/"
     }
-    # ,{
-    #     title: "前端外刊评论",
-    #     href: "http://qianduan.guru/"
-    # },{
+    #,{
     #     title: "天镶的博客",
     #     href: "http://lingyu.wang/"
     # },{
