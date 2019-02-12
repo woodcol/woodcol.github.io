@@ -8,7 +8,9 @@ header-img: "img/post-bg-universe.jpg"
 tags:
     - python
 ---
+
 ##前言
+
 Windows 下用记事本保存文件时有个 ANSI 编码，在python 中使用 mbcs 编码（Windows only）表示 ANSI:
 ```python
 with open('hello.txt', 'w') as f:
