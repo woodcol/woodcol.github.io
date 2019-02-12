@@ -9,7 +9,7 @@ tags:
     - python
 ---
 
-##前言##
+## 前言
 
 Windows 下用记事本保存文件时有个 ANSI 编码，在python 中使用 mbcs 编码（Windows only）表示 ANSI:
 ```python
@@ -26,7 +26,7 @@ ANSI == Windows 本地编码
 >>> u'你好'.encode('mbcs').decode('gbk')
 u'\u4f60\u597d'
 ```
-##把UTF8的文件转码成ANSI文件##
+## 把UTF8的文件转码成ANSI文件##
 
 直接上代码:
 ```Python
@@ -53,6 +53,6 @@ def convertUTF8ToANSI(oldfile,newfile):
     f.close()
 ```
 
-##注意##
+## 注意
 
 mbcs是windows下独有的，所在这个程序只能在windows使用
