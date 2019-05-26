@@ -86,8 +86,14 @@ sudo ./NVIDIA-Linux-x86_64-384.90.run
 
 安装完驱动程序后，重启一下系统就可以了，如果后边遇到驱动程序别的问题，要重新安装的话，记得在运行NVIDIA-Linux-x86_64-384.90.run时要选择先卸载原来的驱动项
 
+下边是卸载驱动的方法，一定要先卸载再安装才不会因为安装驱动后无法进入桌面
+```bash
+sudo apt-get remove –purge nvidia*
+```
+
 参考：
 <a href="http://www.linuxidc.com/Linux/2015-09/123563.htm" target="_blank">ubuntu显卡驱动安装方法</a>
+<a href="https://blog.csdn.net/datase/article/details/80578960" target="_blank">ubuntu显卡驱动更新的问题</a>
 
 
 ### Nvidia CUDA ToolKit ###
